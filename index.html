@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>String Reverse</h1>
+        <input type="text" id="reverseInput" placeholder="Enter a string">
+        <button onclick="reverseString()">Reverse</button>
+        <p id="reverseResult"></p>
+
+        <h1>Palindrome Checker</h1>
+        <input type="text" id="palindromeInput" placeholder="Enter a number">
+        <button onclick="checkPalindrome()">Check Palindrome</button>
+        <p id="palindromeResult"></p>
+
+        <h1>Tip Calculator</h1>
+        <input type="number" id="billSubtotal" placeholder="Enter bill subtotal">
+        <input type="number" id="tipPercentage" placeholder="Enter tip percentage">
+        <button onclick="calculateTotal()">Calculate Total</button>
+        <p id="totalAmount"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
