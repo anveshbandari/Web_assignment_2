@@ -1,32 +1,57 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle, #83a4d4, #b6fbff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
 }
 .container {
-    max-width: 500px;
-    background-color: white;
-    margin: 50px auto;
-    padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-input, button, p {
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 10px;
+    max-width: 450px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
     font-size: 16px;
+    margin-bottom: 20px;
+    transition: border 0.3s;
+}
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
 }
 button {
-    background-color: #4CAF50;
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(to right, #4CAF50, #66bb6a);
+    border: none;
     color: white;
+    font-size: 18px;
+    border-radius: 12px;
     cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
 }
 button:hover {
-    background-color: #45a049;
+    background: linear-gradient(to right, #388e3c, #4CAF50);
+    transform: scale(1.03);
 }
 p {
+    margin-top: 25px;
+    font-size: 20px;
     font-weight: bold;
+    color: #555;
 }
